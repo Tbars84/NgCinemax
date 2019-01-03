@@ -16,6 +16,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@app/*": [
+        "app/*"
+      ],
+      "@landing-components/*": [
+        "src/app/landing-page/*"
+      ]
+    },
+
   }
 }

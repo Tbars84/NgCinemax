@@ -11,5 +11,6 @@ export class NavbarMenuComponent implements OnInit {
 
   ngOnInit() {
     $(".dropdown-trigger").dropdown();
+    $('.sidenav').sidenav();
   }
 }

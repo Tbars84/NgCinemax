@@ -1,11 +1,18 @@
 nav .brand-logo{
   padding: 0.5rem 0 0 0.5rem;
 }
-.dropdown-content li a, .dropdown-content li , .nav-wrapper {
+.dropdown-content li a,
+.dropdown-content li,
+.nav-wrapper,
+.sidenav,
+.sidenav li,
+.sidenav li a {
   background: #ff3d00;
   color: #FFFFFF;
 }
 .dropdown-content li:hover,
-.dropdown-content li a:hover{
+.dropdown-content li a:hover,
+.sidenav li:hover,
+.sidenav li a:hover {
   background: #dd2c00;
 }

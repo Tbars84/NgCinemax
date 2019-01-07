@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from '@landing-components/landing-page.component';
 import { NavbarSocialComponent } from '@landing-components/navbar-social/navbar-social.component';
+import { NavbarMenuComponent } from './landing-page/navbar-menu/navbar-menu.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    NavbarSocialComponent
+    NavbarSocialComponent,
+    NavbarMenuComponent
   ],
   imports: [
     BrowserModule,

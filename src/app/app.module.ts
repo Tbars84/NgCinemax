@@ -8,6 +8,7 @@ import { NavbarSocialComponent } from '@landing-components/navbar-social/navbar-
 import { NavbarMenuComponent } from './landing-page/navbar-menu/navbar-menu.component';
 import { MoviesFilterComponent } from './landing-page/movies-filter/movies-filter.component';
 import { MainSlidesComponent } from './landing-page/main-slides/main-slides.component';
+import { WeeklyBillboardsComponent } from './landing-page/weekly-billboards/weekly-billboards.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { MainSlidesComponent } from './landing-page/main-slides/main-slides.comp
     NavbarSocialComponent,
     NavbarMenuComponent,
     MoviesFilterComponent,
-    MainSlidesComponent
+    MainSlidesComponent,
+    WeeklyBillboardsComponent
   ],
   imports: [
     BrowserModule,

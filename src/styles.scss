@@ -1,1 +1,36 @@
-/* You can add global styles to this file, and also import other style files */
+// ESTILOS GLOBALES
+$customMed : 993px;
+
+@mixin customMed {
+  @media (min-width: #{$customMed}) {
+    @content;
+  }
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.container-fluid{
+  max-width: unset;
+  margin: 0 auto;
+  @include customMed{
+    max-width: 85%;
+  }
+}
+.row{
+  margin: 0;
+}
+nav.social{
+  max-height: 40px;
+  *{
+    max-height: 40px !important;
+    line-height: 37px!important;
+  }
+}
+

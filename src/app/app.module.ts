@@ -10,6 +10,7 @@ import { MoviesFilterComponent } from './landing-page/movies-filter/movies-filte
 import { MainSlidesComponent } from './landing-page/main-slides/main-slides.component';
 import { WeeklyBillboardsComponent } from './landing-page/weekly-billboards/weekly-billboards.component';
 import { WeeklyPremieresComponent } from './landing-page/weekly-premieres/weekly-premieres.component';
+import { CarouselComponent } from './landing-page/carousel/carousel.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { WeeklyPremieresComponent } from './landing-page/weekly-premieres/weekly
     MoviesFilterComponent,
     MainSlidesComponent,
     WeeklyBillboardsComponent,
-    WeeklyPremieresComponent
+    WeeklyPremieresComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,19 @@
 // ESTILOS GLOBALES
+$customMed : 993px;
+
+@mixin customMed {
+  @media (min-width: #{$customMed}) {
+    @content;
+  }
+}
+
+.container-fluid{
+  max-width: unset;
+  margin: 0 auto;
+  @include customMed{
+    max-width: 85%;
+  }
+}
 nav.social{
   max-height: 40px;
   *{
@@ -6,3 +21,4 @@ nav.social{
     line-height: 37px!important;
   }
 }
+

@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LandingPageComponent } from '@landing-components/landing-page.component';
 import { NavbarSocialComponent } from '@landing-components/navbar-social/navbar-social.component';
 import { NavbarMenuComponent } from './landing-page/navbar-menu/navbar-menu.component';
+import { MoviesFilterComponent } from './landing-page/movies-filter/movies-filter.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { NavbarMenuComponent } from './landing-page/navbar-menu/navbar-menu.comp
     AppComponent,
     LandingPageComponent,
     NavbarSocialComponent,
-    NavbarMenuComponent
+    NavbarMenuComponent,
+    MoviesFilterComponent
   ],
   imports: [
     BrowserModule,
